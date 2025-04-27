@@ -428,3 +428,16 @@ footer .copyright{ padding: 20px 0 30px; }
 header, .main-slider, section {
     border: 0 !important;
 }
+
+
+
+@media (max-width: 768px) {
+	.main-slider {
+	  background-position: center bottom;
+	  background-size: cover;
+	  height: auto;
+	  min-height: 100vh;
+	  padding-top: 180px;
+	  padding-bottom: 50px;
+	}
+  }
